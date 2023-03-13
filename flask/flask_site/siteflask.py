@@ -18,7 +18,7 @@ def contatos():
 
 @app.route('/usuarios/<nome_usuario>')
 def usuarios(nome_usuario):
-    return nome_usuario
+    return render_template('usuarios.html', nome_usuario=nome_usuario)
 
 
 # Roda o site
