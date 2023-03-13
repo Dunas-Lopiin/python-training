@@ -5,8 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Homepage</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ url_for('static',filename='css/style.css') }}"
+    />
+    <script
+      defer
+      src="{{ url_for('static', filename='scripts/main.js') }}"
+    ></script>
   </head>
   <body>
+    <nav>
+      <h2>Pagina teste</h2>
+    </nav>
     <h1>Pagina inicial</h1>
   </body>
 </html>
